@@ -7,8 +7,7 @@ public class Main {
       idiot.setPublishingYear(1879);
       System.out.println("автор и год издания:  " + idiot.getAuthorName() +
               "   " + idiot.getPublishingYear());
-
-
+      System.out.println(new Book("Dostoevsky" ,1874));
 
 
 }}
